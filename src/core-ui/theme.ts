@@ -7,8 +7,8 @@ const defaultTheme: DefaultTheme = {
     lg: "1024px",
   },
   palette: {
-    primary: "#fff",
-    secondary: {
+    common: { white: "#fff", black: "#000" },
+    primary: {
       lighter: "#343434",
       light: "#1f1f1f",
       normal: "#131313",
