@@ -1,6 +1,6 @@
 import { Delete, Divide, Plus, Minus, X } from "@styled-icons/feather"
 
-const SPECIAL_BUTTONS = {
+export const SPECIAL_BUTTONS = {
   BLANK: { label: "", value: "" },
   CE: { label: "CE", value: "clear-entry" },
   C: { label: "C", value: "clear" },
@@ -12,7 +12,7 @@ const SPECIAL_BUTTONS = {
   EQUALS: { label: "=", value: "equals" },
   PERIOD: { label: ".", value: "." },
 }
-const NORMAL_BUTTONS = {
+export const NORMAL_BUTTONS = {
   ZERO: { label: "0", value: "0" },
   ONE: { label: "1", value: "1" },
   TWO: { label: "2", value: "2" },
