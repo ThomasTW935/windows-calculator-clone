@@ -51,7 +51,7 @@ export default function Navigation({ activeTab, setActiveTab }: Props) {
           {handleListItems(UNITS)}
         </Con.List>
       </Con.SideNav>
-      <Con.Title>Length</Con.Title>
+      <Con.Title>{activeTab.toLowerCase()}</Con.Title>
     </Con>
   )
 }
