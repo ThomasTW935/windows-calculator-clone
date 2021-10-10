@@ -1,5 +1,5 @@
 export const CALCULATOR = {
   STANDARD: "stardard",
-  SCIENTIFIC: "scientific",
-  PROGRAMMER: "Programmer",
+  // SCIENTIFIC: "scientific",
+  // PROGRAMMER: "Programmer",
 }
