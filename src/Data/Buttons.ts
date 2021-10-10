@@ -1,4 +1,10 @@
 import { Delete, Divide, Plus, Minus, X } from "@styled-icons/feather"
+import { StyledIcon } from "@styled-icons/styled-icon"
+
+export interface IButton {
+  label: string | StyledIcon
+  value: string
+}
 
 export const SPECIAL_BUTTONS = {
   BLANK: { label: "", value: "" },
