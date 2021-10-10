@@ -76,6 +76,7 @@ const listItem = styled.li<ItemProps>`
 
 const title = styled.span`
   font-weight: bold;
+  text-transform: capitalize;
   font-size: 1.3rem;
 `
 
