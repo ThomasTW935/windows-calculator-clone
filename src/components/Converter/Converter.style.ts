@@ -14,12 +14,16 @@ const Con: ICon = styled.div`
 
 const display = styled.section`
   div {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
   }
   select {
+    margin-top: 0.5rem;
     display: block;
-    /* font-size: 1.5rem; */
     text-transform: capitalize;
+    font-size: 1.1rem;
+    option {
+      color: black;
+    }
   }
 `
 
